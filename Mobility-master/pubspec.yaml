@@ -1,0 +1,52 @@
+name: flutter_application
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Pacote para navegação na barra de navegação do app (google_nav_bar)
+  google_nav_bar: ^5.0.6
+
+  # Webview para abrir páginas web dentro do app
+  webview_flutter: ^4.0.0
+
+  # Permissões de localização (necessário para trabalhar com mapas)
+  permission_handler: ^10.2.0
+  
+  # Google Maps
+  google_maps_flutter: ^2.1.1 # Ou a versão mais recente
+  google_maps_flutter_web: ^0.5.10
+  google_places_flutter: ^2.0.9
+  geocoding: ^3.0.0
+
+  # Pacote para requisições HTTP
+  http: ^0.13.5
+  
+  # Pacote para ícones do Cupertino (iOS)
+  cupertino_icons: ^1.0.8
+
+  flutter_credit_card: ^4.0.1
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Pacote para a navegação com GetX
+  get: ^4.6.6
+
+  # Conjunto de lints recomendados
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/imagens/img.png
+
